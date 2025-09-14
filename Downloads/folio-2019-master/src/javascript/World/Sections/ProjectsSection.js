@@ -69,31 +69,7 @@ export default class ProjectsSection
 
     setList()
     {
-        this.list = [
-            {
-                name: 'Google student ambasdor',
-                imageSources:
-                [
-                    './models/projects/threejsJourney/slideA.webp',
-                    './models/projects/threejsJourney/slideB.webp',
-                    './models/projects/threejsJourney/slideC.webp',
-                    './models/projects/threejsJourney/slideD.webp'
-                ],
-                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
-                link:
-                {
-                    href: 'https://aiskillshouse.com/student/qr-mediator?uid=385&promptId=6',
-                    x: - 4.8,
-                    y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions: []
-            }
-        ]
+        this.list = []
     }
 
     setZone()
